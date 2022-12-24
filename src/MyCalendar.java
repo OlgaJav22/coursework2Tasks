@@ -116,7 +116,7 @@ public class MyCalendar {
                 yield oncelyTask;
             }
             case 1 -> {
-                DailyTask task = new DailyTask(title, taskType, taskDescription, localDateTime);
+                DayliTask task = new DayliTask(title, taskType, taskDescription, localDateTime);
                 actualTasks.put(task.getId(), task);
                 yield task;
             }
